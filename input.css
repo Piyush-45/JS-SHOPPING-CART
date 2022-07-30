@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shop{
+    @apply  grid grid-cols-2 md:grid-cols-4 m-12;
+}
+
+.item{
+    @apply p-2 border-2 border-black w-10/12 rounded-md
+}
+.bottom_card{
+    @apply flex  mx-4 justify-between my-2
+}
+.buttons{
+    @apply flex gap-3
+}
+.btn{
+    @apply cursor-pointer
+}
+.quantity{
+    @apply  text-xl text-center
+}
+
+
+.label-h2{
+    @apply text-2xl text-black font-serif
+}
+.back-to-home{
+    @apply bg-orange-500 p-3 rounded-md mt-4 font-serif 
+}
+
+.cart-item{
+    @apply flex justify-around my-4 items-center  w-1/2 mx-auto border-2 border-black 
+}
+.cart-images{
+    @apply w-20 h-20 m-2 rounded-lg 
+}
+.details{
+    @apply text-left
+}
+
+.title-price-x{
+    @apply flex  gap-x-8 items-center text-left
+}
+h4{
+    @apply flex gap-x-8 font-bold 
+}
+.p1{
+    @apply bg-black text-white p-0.5 m-1 rounded-md
+}
+
+.cart-buttons{
+    @apply flex items-center gap-x-4 mt-2
+}
+.minus{
+    @apply cursor-pointer text-red-500
+}
+.plus{
+    @apply cursor-pointer text-green-800
+}
+h3{
+    @apply mt-2 font-bold
+}
+h2{
+    @apply text-2xl text-red-600
+}
+
+.checkout{
+    @apply bg-green-500 p-2 rounded-md text-white hover:text-black my-2 mx-2
+}
+.clear-cart{
+    @apply bg-red-600 text-white p-2 rounded-md  hover:text-black
+}
